@@ -4,7 +4,7 @@ Rails.application.routes.draw do
 
   # You can have the root of your site routed with "root"
 get 'hello_world', to:
-'static#about'
+'posts#home'
   # Example of regular route:
     # get 'products/:id' => 'catalog#view'
 
